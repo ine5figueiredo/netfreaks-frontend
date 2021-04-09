@@ -1,8 +1,7 @@
 body{
-    min-height: 90vh;
-    border: 2px solid black;
+    min-height: 100vh;
     padding: 25px;
-    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Ffunkyimg.com%2Fi%2F3bLL2.jpg");
+    background-image: url("https://funkyimg.com/i/3bLX3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -13,22 +12,34 @@ input{
     margin: 10px;
 }
  
-
-
 button{
-    background-color: blue;
+    background-color: #8FD2D6;
     color: white;
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
     font-size: 20px;
+    font-family: 'Bangers', cursive;
 }
-
 button:hover{
     cursor: pointer;
     background-color: white;
-    color: blue;
-    border: 2px solid blue;
+    color: #8FD2D6;
+    border: 2px solid #8FD2D6;
+}
+
+form {
+    margin-top: 15%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
 }
 
 
