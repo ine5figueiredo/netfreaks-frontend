@@ -1,4 +1,4 @@
-var destUrl = "http://netfreaks.herokuapp.com/home/feed/";
+var destUrl = "https://netfreaks.herokuapp.com/home/feed/";
 
 $.get(destUrl, successCallback);
 
@@ -8,7 +8,6 @@ function successCallback(response) {
     var blob;
     var row = $("<tr height='200px'></tr>");
     var cell;
-    var count = 0;
 
 for (var x = 1; x <= response.length; x++) {
 
