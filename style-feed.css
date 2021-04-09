@@ -46,10 +46,12 @@ button:hover{
 #picture{
     margin-left: 15px;
 }
+
 a{
     color: white;
     text-decoration: none;
 }
+
 .scroller{
     background-color: white;
     width: 580px;

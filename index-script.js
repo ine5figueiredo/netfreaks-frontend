@@ -4,7 +4,7 @@ function getData() {
     $.ajax({
         url : myUrl,
         type: 'GET',
-        success : handleData(dataFromServer)
+        success : handleData
     })
 }
 
