@@ -1,5 +1,44 @@
-.profile-container{
-    border: 2px solid black;
-    border-radius: 15px;
-    padding: 10PX;
+body{
+    min-height: 100vh;
+    padding: 25px;
+    background-image: url("https://funkyimg.com/i/3bLYp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 100px;
+}
+
+.rounded-img {
+    border-radius: 100%;
+}
+
+button{
+    background-color: #8FD2D6;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #8FD2D6;
+    border: 2px solid #8FD2D6;
+}
+
+.search{
+   display:flex;
+   align-items: flex-end;
+   justify-content: center;
+   margin-top: 32%;
+   position: sticky;
 }
