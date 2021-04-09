@@ -1,15 +1,26 @@
 body{
     border: 0px solid black;
     padding: 25px;
-    background-image: url("https://funkyimg.com/i/3bLGs.jpg");
+    background-image: url("https://funkyimg.com/i/3bLWw.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: contain;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .first-page{
-    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+
 }
 
 
@@ -17,7 +28,6 @@ body{
 .paragraph,
 .button{
     
-    display: flex;
     justify-content:center;
     align-items: center;   
 
@@ -34,11 +44,12 @@ h1{
 
 p{
     display: block;
-    font-size: 30px;
+    font-size: 24px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 button{
-    background-color: blue;
+    background-color: #8fd2d6;
     color: white;
     border-radius: 5px;
     margin: 5px;
@@ -50,7 +61,7 @@ button{
 button:hover{
     cursor: pointer;
     background-color: white;
-    color: blue;
-    border: 2px solid blue;
+    color: #8fd2d6;
+    border: 2px solid #8fd2d6;
 }
 
