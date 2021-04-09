@@ -1,0 +1,40 @@
+body{
+    min-height: 90vh;
+    border: 2px solid black;
+    padding: 25px;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Ffunkyimg.com%2Fi%2F3bLL2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    margin: 10px;
+}
+
+.welcome,
+.in
+display: flex;
+justify-content:center;
+align-items: center;   
+
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+
+
