@@ -1,14 +1,13 @@
-var url = "https://netfreaks.herokuapp.com";
+var myUrl = "https://netfreaks.herokuapp.com/";
 
-$(document).ready(function() {
+function getData() {
+    $.ajax({
+        url : myUrl,
+        type: 'GET',
+        success : handleData(dataFromServer)
+    })
+}
 
-    console.log("aqui");
-$.ajax({
-    
-    url:url,
-    type: 'GET',
-    async: true,
-    success: alert("it's alive!!")
-})
-
-})
+function handleData(response) {
+    console.log("print");
+}
