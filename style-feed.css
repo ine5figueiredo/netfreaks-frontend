@@ -3,22 +3,20 @@ body{
     padding: 25px;
     background-image: url("https://funkyimg.com/i/3bLYp.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;    
 }
-
 #header {
     display: flex;
     justify-content: center;
 }
-
 #logo {
     width: 150px;
 }
-
 .rounded-img {
     border-radius: 100%;
 }
-
 button{
     background-color: #8FD2D6;
     color: white;
@@ -34,24 +32,56 @@ button:hover{
     color: #8FD2D6;
     border: 2px solid #8FD2D6;
 }
-
 .buttons{
     margin-top: 5px;
 }
-
 .search{
    display:flex;
    align-items: flex-end;
    justify-content: center;
-   margin-top: 32%;
+   margin-top: 20px;
    position: sticky;
+   margin-bottom: 30px;
 }
-
 #picture{
     margin-left: 15px;
 }
-
 a{
     color: white;
     text-decoration: none;
 }
+.scroller{
+    background-color: white;
+    width: 580px;
+    height: 450px;
+    overflow: auto;
+    border: 4px solid black;
+}
+.inside-box {
+    background-color: lightsalmon;
+    padding: 30px;
+    border: 4px solid black;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightgray; 
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
