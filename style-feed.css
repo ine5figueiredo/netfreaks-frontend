@@ -12,7 +12,7 @@ body{
 }
 
 #logo {
-    width: 100px;
+    width: 150px;
 }
 
 .rounded-img {
@@ -35,10 +35,23 @@ button:hover{
     border: 2px solid #8FD2D6;
 }
 
+.buttons{
+    margin-top: 5px;
+}
+
 .search{
    display:flex;
    align-items: flex-end;
    justify-content: center;
    margin-top: 32%;
    position: sticky;
+}
+
+#picture{
+    margin-left: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
