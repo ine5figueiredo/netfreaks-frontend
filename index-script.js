@@ -1,4 +1,4 @@
-var myUrl = "https://netfreaks.herokuapp.com/";
+var myUrl = "https://netfreaks.herokuapp.com/login";
 
 function getData() {
     $.ajax({
@@ -10,4 +10,5 @@ function getData() {
 
 function handleData(response) {
     console.log("print");
+    
 }
