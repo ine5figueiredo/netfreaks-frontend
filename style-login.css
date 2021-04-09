@@ -12,12 +12,7 @@ input{
     margin: 0 auto;
     margin: 10px;
 }
-
-.welcome,
-.in
-display: flex;
-justify-content:center;
-align-items: center;   
+ 
 
 
 button{
