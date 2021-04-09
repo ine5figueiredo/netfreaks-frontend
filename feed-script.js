@@ -11,13 +11,6 @@ function successCallback(response) {
     var count = 0;
 
 for (var x = 1; x <= response.length; x++) {
-    console.log("HEY!");
-    /*var divCard=$("<div></div>");
-    var divCardBody=$("<div ></div>");
-    var h5=$("<h5 ></h5>");
-    h5.text("HELLO");
-    divCardBody.append(h5);
-    divCard.append(divCardBody);*/
 
  blob = "<div class='card' height='150px'><div class='card-body'><img src='" + response[x].picture + "' class='card-img-top'><h5 class='card-title'>" 
     + response[x].name + "  " + response[x].age + "</h5><p class='card-text'><b>" + response[x].kinks 
